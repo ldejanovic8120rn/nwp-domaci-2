@@ -4,11 +4,36 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="13e553d9-1422-4c3b-bd91-e4ba1a769860" name="Changes" comment="" />
+    <list default="true" id="13e553d9-1422-4c3b-bd91-e4ba1a769860" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/framework/annotations/Autowired.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/framework/annotations/Bean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/framework/annotations/Component.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/framework/annotations/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/framework/annotations/GET.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/framework/annotations/POST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/framework/annotations/Path.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/framework/annotations/Qualifier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/framework/annotations/ScopeType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/framework/annotations/Service.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="AnnotationType" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GithubDefaultAccount">
     <option name="defaultAccountId" value="22668c80-6bf6-4abc-9565-33fb5d1deb5a" />
@@ -20,6 +45,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2H8HVsDDOXWmNA0bOtBnHfncMoh" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -31,6 +59,7 @@
     "RunOnceActivity.go.format.on.save.advertiser.fired": "true",
     "RunOnceActivity.go.formatter.settings.were.checked": "true",
     "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "go.import.settings.migrated": "true",
     "last_opened_file_path": "/Users/lazardejanovic/Documents/Faculty/RAF/7.Semestar/Napredno web programiranje/Lazar Dejanovic/nwp-domaci-2/src/main/java",
@@ -71,12 +100,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1667659818035</updated>
-      <workItem from="1667659819482" duration="1227000" />
+      <workItem from="1667659819482" duration="1331000" />
+      <workItem from="1667666996836" duration="975000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VgoProject">
     <integration-enabled>false</integration-enabled>

@@ -4,20 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="13e553d9-1422-4c3b-bd91-e4ba1a769860" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/framework/annotations/Autowired.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/framework/annotations/Bean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/framework/annotations/Component.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/framework/annotations/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/framework/annotations/GET.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/framework/annotations/POST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/framework/annotations/Path.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/framework/annotations/Qualifier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/framework/annotations/ScopeType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/framework/annotations/Service.java" afterDir="false" />
+    <list default="true" id="13e553d9-1422-4c3b-bd91-e4ba1a769860" name="Changes" comment="added annotations">
+      <change afterPath="$PROJECT_DIR$/src/main/java/framework/engine/ClassScanner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/framework/engine/DIEngine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/framework/engine/DependencyContainer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/bean/Bean1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/bean/Bean2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/component/Component1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/component/Component2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/controller/Controller1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/controller/Controller2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/service/Service1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/service/Service2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/server/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/server/Server.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +29,7 @@
       <list>
         <option value="Enum" />
         <option value="AnnotationType" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -101,8 +102,16 @@
       <option name="presentableId" value="Default" />
       <updated>1667659818035</updated>
       <workItem from="1667659819482" duration="1331000" />
-      <workItem from="1667666996836" duration="975000" />
+      <workItem from="1667666996836" duration="6031000" />
     </task>
+    <task id="LOCAL-00001" summary="added annotations">
+      <created>1667668527476</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1667668527476</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -118,6 +127,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added annotations" />
+    <option name="LAST_COMMIT_MESSAGE" value="added annotations" />
   </component>
   <component name="VgoProject">
     <integration-enabled>false</integration-enabled>

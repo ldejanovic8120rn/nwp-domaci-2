@@ -16,17 +16,7 @@ public class Server {
     public static void main(String[] args) throws IOException {
 
         try {
-            DIEngine diEngine = new DIEngine();
-
-            File dir = new File(System.getProperty("user.dir"));
-            diEngine.loadAllClasses(Objects.requireNonNull(dir.listFiles()));
-
-            for(Class<?> c: diEngine.getAllClasses()) {
-                if(c.isAnnotationPresent(Controller.class)) {
-                    System.out.println("Controller: " + c.getName());
-                }
-            }
-
+            DIEngine.getInstance().setup();
 
             ServerSocket serverSocket = new ServerSocket(TCP_PORT);
             System.out.println("Server is running at http://localhost:" + TCP_PORT);

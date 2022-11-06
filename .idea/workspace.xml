@@ -4,20 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="13e553d9-1422-4c3b-bd91-e4ba1a769860" name="Changes" comment="added annotations">
-      <change afterPath="$PROJECT_DIR$/src/main/java/framework/engine/ClassScanner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/framework/engine/DIEngine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/framework/engine/DependencyContainer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test/bean/Bean1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test/bean/Bean2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test/component/Component1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test/component/Component2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test/controller/Controller1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test/controller/Controller2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test/service/Service1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test/service/Service2.java" afterDir="false" />
+    <list default="true" id="13e553d9-1422-4c3b-bd91-e4ba1a769860" name="Changes" comment="loaded all classes and created tests classes">
+      <change afterPath="$PROJECT_DIR$/src/main/java/framework/engine/ClassHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/framework/engine/routes/ControllerRoute.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/qualifier/ImplInterface1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/qualifier/ImplInterface2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/qualifier/Interface1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/qualifier/Interface2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/framework/engine/ClassScanner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/framework/engine/DIEngine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/framework/engine/DIEngine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/framework/engine/DependencyContainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/framework/engine/DependencyContainer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/server/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/server/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/bean/Bean1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/bean/Bean1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/bean/Bean2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/bean/Bean2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/component/Component1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/component/Component1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/component/Component2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/component/Component2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/controller/Controller1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/controller/MyController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/controller/Controller2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/service/Service1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/service/Service1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/service/Service2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/service/Service2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +35,7 @@
       <list>
         <option value="Enum" />
         <option value="AnnotationType" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -102,7 +109,7 @@
       <option name="presentableId" value="Default" />
       <updated>1667659818035</updated>
       <workItem from="1667659819482" duration="1331000" />
-      <workItem from="1667666996836" duration="6031000" />
+      <workItem from="1667666996836" duration="20490000" />
     </task>
     <task id="LOCAL-00001" summary="added annotations">
       <created>1667668527476</created>
@@ -111,7 +118,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667668527476</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="loaded all classes and created tests classes">
+      <created>1667675281925</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1667675281925</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -130,7 +144,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added annotations" />
-    <option name="LAST_COMMIT_MESSAGE" value="added annotations" />
+    <MESSAGE value="loaded all classes and created tests classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="loaded all classes and created tests classes" />
   </component>
   <component name="VgoProject">
     <integration-enabled>false</integration-enabled>

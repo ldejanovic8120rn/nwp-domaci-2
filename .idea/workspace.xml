@@ -4,13 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="13e553d9-1422-4c3b-bd91-e4ba1a769860" name="Changes" comment="finished">
+    <list default="true" id="13e553d9-1422-4c3b-bd91-e4ba1a769860" name="Changes" comment="finished -&gt; improved response from server">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/framework/engine/ClassHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/framework/engine/ClassHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/framework/engine/DIEngine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/framework/engine/DIEngine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/framework/engine/routes/ControllerRoute.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/framework/engine/routes/ControllerRoute.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/server/ServerThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/server/ServerThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/controller/MyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/controller/MyController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +92,8 @@
       <updated>1667659818035</updated>
       <workItem from="1667659819482" duration="1331000" />
       <workItem from="1667666996836" duration="20527000" />
-      <workItem from="1667935628714" duration="3796000" />
+      <workItem from="1667935628714" duration="3980000" />
+      <workItem from="1667942547367" duration="313000" />
     </task>
     <task id="LOCAL-00001" summary="added annotations">
       <created>1667668527476</created>
@@ -120,7 +116,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667699083954</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="finished -&gt; improved response from server">
+      <created>1667940550212</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1667940550212</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -141,7 +144,8 @@
     <MESSAGE value="added annotations" />
     <MESSAGE value="loaded all classes and created tests classes" />
     <MESSAGE value="finished" />
-    <option name="LAST_COMMIT_MESSAGE" value="finished" />
+    <MESSAGE value="finished -&gt; improved response from server" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished -&gt; improved response from server" />
   </component>
   <component name="VgoProject">
     <integration-enabled>false</integration-enabled>

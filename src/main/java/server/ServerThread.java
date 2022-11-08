@@ -1,5 +1,7 @@
 package server;
 
+import framework.engine.DIEngine;
+import framework.engine.routes.ControllerRoute;
 import framework.http.request.Header;
 import framework.http.request.Helper;
 import framework.http.request.Request;
@@ -41,15 +43,15 @@ public class ServerThread implements Runnable{
                 return;
             }
 
+            String path = request.getMethod() + ":" + request.getLocation().split("\\?")[0];
+            ControllerRoute controllerRoute = DIEngine.getInstance().getControllerRoutByPath(path);
+            Object response = null;
+            if(controllerRoute != null)
+                response = controllerRoute.invokeMethod(request);
 
             // Response example
-            Map<String, Object> responseMap = new HashMap<>();
-            responseMap.put("route_location", request.getLocation());
-            responseMap.put("route_method", request.getMethod().toString());
-            responseMap.put("parameters", request.getParameters());
-            Response response = new JsonResponse(responseMap);
-
-            out.println(response.render());
+            if (response instanceof Response)
+                out.println(((Response) response).render());
 
             in.close();
             out.close();
@@ -81,7 +83,7 @@ public class ServerThread implements Runnable{
         } while(!command.trim().equals(""));
 
         if(method.equals(Method.POST)) {
-            int contentLength = Integer.parseInt(header.get("content-length"));
+            int contentLength = Integer.parseInt(header.get("Content-Length"));
             char[] buff = new char[contentLength];
             in.read(buff, 0, contentLength);
             String parametersString = new String(buff);

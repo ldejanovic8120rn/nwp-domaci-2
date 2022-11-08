@@ -75,4 +75,8 @@ public class DIEngine {
         servicesAndBeans.put(key, value);
     }
 
+    public ControllerRoute getControllerRoutByPath(String path) {
+        return routes.get(path);
+    }
+
 }

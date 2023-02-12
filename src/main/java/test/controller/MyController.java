@@ -27,7 +27,7 @@ public class MyController {
     @Autowired(verbose = false)
     private Service1 service1;
 
-    @Autowired(verbose = false)
+    @Autowired(verbose = true)
     @Qualifier(value = "interface1")
     private Interface1 interface1;
 
